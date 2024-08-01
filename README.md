@@ -1,27 +1,4 @@
-> ![](./media/image1.jpeg){width="3.9791666666666665in"
-> height="1.15625in"}
-
-STOCK MARKET ANALYSIS ON DAX COMPANIES
-
-Submitted to:
-
--   Humera Noor Minhas
-
-Presented By:
-
-  -----------------------------------------------------------------------------------
-   **Team Member**    **Student  **Contributions**    **Presentation   **Year/Period
-                        ID**                            Timings**       of Study**
-  ------------------ ----------- ------------------- ---------------- ---------------
-    Chethan Allidi     60130302  Data Visualisation\ 09.18 -- 16.27      Mar\'2024
-                                 Research on the                      
-                                 topic\                               
-                                 Report                               
-
-       Perinban       95991143   Data Analysis\       0.04 -- 09.11      Mar\'2024
-    Parameshwaran                Data Wrangling\                      
-                                 Report                               
-  -----------------------------------------------------------------------------------
+<h1> STOCK MARKET ANALYSIS ON DAX COMPANIES </h1>
 
 **Abstract:**
 
@@ -351,30 +328,47 @@ educated decisions.
 
 **Appendix:**
 
-  --------------------------------------------------------------------------------
-  **Document Name**  **Details**                                      **Reference
-                                                                       Number**
-  ------------------ ----------------------------------------------- -------------
-        Stock        This document contains attributes related to          1
-   Information.xlsx  table information, specifying each attribute\'s 
-                     data type and length.                           
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Document Name**  **Details**         **Reference                                                                      **Reference Link**
+                                           Number**    
+  ------------------ ------------------ -------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+        Stock        This document            1       https://docs.google.com/spreadsheets/d/1IBVbrBNufiyhzynE-ROLjuqef6zJGV4X/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true
+    Information.xlsx contains                          
+                     attributes related                
+                     to table                          
+                     information,                      
+                     specifying each                   
+                     attribute\'s data                 
+                     type and length.                  
 
-       Database      This document contains a screenshot of the            2
-      Setup.docx     database setup along with the queries performed 
-                     as part of this project.                        
+       Database      This document            2       https://docs.google.com/document/d/1hLOMP_56IIsqIahfTA-xOLLMjhFs8gcX/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true
+      Setup.docx     contains a                        
+                     screenshot of the                 
+                     database setup                    
+                     along with the                    
+                     queries performed                 
+                     as part of this                   
+                     project.                          
 
-  Source Code.ipynb  This file contains the Python source code of          3
-                     data wrangling, data loading to tables and data 
-                     rejection processes                             
+    Source Code.ipynb This file contains       3                                              \-
+                     the Python source                 
+                     code of data                      
+                     wrangling, data                   
+                     loading to tables                 
+                     and data rejection                
+                     processes                         
 
-    Database Table   This file contains the records used for               4
-     records.xlsx    performing this analysis, corresponding to each 
-                     table.                                          
+    Database Table   This file contains       4       https://docs.google.com/spreadsheets/d/1LRod_iuY3hciIgDthlw5Lf2v-1DbzFJm/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true
+     records.xlsx    the records used                  
+                     for performing                    
+                     this analysis,                    
+                     corresponding to                  
+                     each table.                       
 
-    Stock Analysis   This file contains the Tableau visualization          5
-       DAX.twbx      plot details for all results.                   
+    Stock Analysis   This file contains       5       https://public.tableau.com/views/StockAnalysisonDAXCompanies/Closing_Price?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+       DAX.twbx      the Tableau                       
+                     visualization plot                
+                     details for all                   
+                     results.                          
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-   Presentation.mp4  This presentation provides a detailed                 6
-                     explanation of the movement trends of DAX       
-                     companies over the years.                       
-  --------------------------------------------------------------------------------
