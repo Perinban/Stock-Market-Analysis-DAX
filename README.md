@@ -1,5 +1,92 @@
 <h1> STOCK MARKET ANALYSIS ON DAX COMPANIES </h1>
 
+**Appendix:**
+
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Document Name**  **Details**         **Reference                                                                      **Reference Link**
+                                           Number**    
+  ------------------ ------------------ -------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+        Stock        This document            1       
+    Information.xlsx contains                          
+                     attributes related                
+                     to table                          
+                     information,                      
+                     specifying each                   
+                     attribute\'s data                 
+                     type and length.                  
+
+       Database      This document            2       
+      Setup.docx     contains a                        
+                     screenshot of the                 
+                     database setup                    
+                     along with the                    
+                     queries performed                 
+                     as part of this                   
+                     project.                          
+
+    Source Code.ipynb This file contains       3                                              \-
+                     the Python source                 
+                     code of data                      
+                     wrangling, data                   
+                     loading to tables                 
+                     and data rejection                
+                     processes                         
+
+    Database Table   This file contains       4       
+     records.xlsx    the records used                  
+                     for performing                    
+                     this analysis,                    
+                     corresponding to                  
+                     each table.                       
+
+    Stock Analysis   This file contains       5       
+       DAX.twbx      the Tableau                       
+                     visualization plot                
+                     details for all                   
+                     results.                          
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h3>Source Data</h3>
+
+<table border="0" cellpadding="0" cellspacing="0" width="864" style="">
+  <thead>
+    <tr height="45" style="height: 34pt;">
+      <th>Document Name</th>
+      <th>Details</th>
+      <th>Reference Link</th>
+    </tr>
+  </thead><colgroup><col width="297" style="width: 223pt;"><col width="328" style="width: 246pt;"><col width="239" style="width: 179pt;"></colgroup>
+  <tbody>
+    <tr height="68" style="height: 51pt;">
+      <td height="68" class="xl65" width="297" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; text-align: center; height: 51pt; width: 223pt;">Stock Information.xlsx</td>
+      <td class="xl65" width="328" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 246pt;">This document contains attributes related to table information, specifying each attribute's data type and length</td>
+      <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;"><a href="https://docs.google.com/spreadsheets/d/1IBVbrBNufiyhzynE-ROLjuqef6zJGV4X/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrK-y05cfo5GM1Pg55QJLLirq54AByCaozg&s" width="50" height="30"/></a></td>
+    </tr>
+    <tr height="68" style="height: 51pt;">
+      <td height="68" class="xl65" width="297" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; text-align: center; height: 51pt; width: 223pt;">Database Setup.docx</td>
+      <td class="xl65" width="328" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 246pt;">This document contains the screenshot of the database setup along with the queries performed as part of this object</td>
+      <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;"><a href="https://docs.google.com/document/d/1hLOMP_56IIsqIahfTA-xOLLMjhFs8gcX/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true"><img src="https://i.pinimg.com/736x/17/85/cb/1785cbc8818b4e702f6064d439f152ad.jpg" width="60" height="40"/></a></td>
+    </tr>
+    <tr height="68" style="height: 51pt;">
+      <td height="68" class="xl65" width="297" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; text-align: center; height: 51pt; width: 223pt;">Source Code.ipynb</td>
+      <td class="xl65" width="328" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 246pt;">This file contains the Python Source code of data wrangling, data loading to tables and data rejection process</td>
+      <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;">-</td>
+    </tr>
+    <tr height="45" style="height: 34pt;">
+      <td height="45" class="xl65" width="297" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; text-align: center; height: 34pt; width: 223pt;">Database Table records.xlsx</td>
+      <td class="xl65" width="328" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 246pt;">This file contains the records used for performing this analysis, corresponding to each table</td>
+      <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;"><a href="https://docs.google.com/spreadsheets/d/1LRod_iuY3hciIgDthlw5Lf2v-1DbzFJm/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrK-y05cfo5GM1Pg55QJLLirq54AByCaozg&s" width="50" height="30"/></a></td>
+    </tr>
+    <tr height="45" style="height: 34pt;">
+      <td height="45" class="xl65" width="297" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; text-align: center; height: 34pt; width: 223pt;">Stock Analysis DAX.twbx</td>
+      <td class="xl65" width="328" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 246pt;">This file contains the Tableau visualisation plot details for all results</td>
+      <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;"><a href="https://public.tableau.com/views/StockAnalysisonDAXCompanies/Closing_Price?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"><img src="https://i.pinimg.com/originals/86/35/88/863588a71e465cc3aa5d822c0feafea9.png" width="60" height="40"/></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
 **Abstract:**
 
 This project focuses on examining the variances in the stock market
@@ -325,50 +412,4 @@ behavior, showing the key factors that influence performance trends.
 These insights contribute to a better knowledge of the stock market
 trends of DAX companies, allowing investors and analysts to make more
 educated decisions.
-
-**Appendix:**
-
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Document Name**  **Details**         **Reference                                                                      **Reference Link**
-                                           Number**    
-  ------------------ ------------------ -------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
-        Stock        This document            1       https://docs.google.com/spreadsheets/d/1IBVbrBNufiyhzynE-ROLjuqef6zJGV4X/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true
-    Information.xlsx contains                          
-                     attributes related                
-                     to table                          
-                     information,                      
-                     specifying each                   
-                     attribute\'s data                 
-                     type and length.                  
-
-       Database      This document            2       https://docs.google.com/document/d/1hLOMP_56IIsqIahfTA-xOLLMjhFs8gcX/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true
-      Setup.docx     contains a                        
-                     screenshot of the                 
-                     database setup                    
-                     along with the                    
-                     queries performed                 
-                     as part of this                   
-                     project.                          
-
-    Source Code.ipynb This file contains       3                                              \-
-                     the Python source                 
-                     code of data                      
-                     wrangling, data                   
-                     loading to tables                 
-                     and data rejection                
-                     processes                         
-
-    Database Table   This file contains       4       https://docs.google.com/spreadsheets/d/1LRod_iuY3hciIgDthlw5Lf2v-1DbzFJm/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true
-     records.xlsx    the records used                  
-                     for performing                    
-                     this analysis,                    
-                     corresponding to                  
-                     each table.                       
-
-    Stock Analysis   This file contains       5       https://public.tableau.com/views/StockAnalysisonDAXCompanies/Closing_Price?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-       DAX.twbx      the Tableau                       
-                     visualization plot                
-                     details for all                   
-                     results.                          
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
