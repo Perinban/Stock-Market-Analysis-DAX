@@ -1,51 +1,5 @@
 <h1> STOCK MARKET ANALYSIS ON DAX COMPANIES </h1>
 
-**Appendix:**
-
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Document Name**  **Details**         **Reference                                                                      **Reference Link**
-                                           Number**    
-  ------------------ ------------------ -------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
-        Stock        This document            1       
-    Information.xlsx contains                          
-                     attributes related                
-                     to table                          
-                     information,                      
-                     specifying each                   
-                     attribute\'s data                 
-                     type and length.                  
-
-       Database      This document            2       
-      Setup.docx     contains a                        
-                     screenshot of the                 
-                     database setup                    
-                     along with the                    
-                     queries performed                 
-                     as part of this                   
-                     project.                          
-
-    Source Code.ipynb This file contains       3                                              \-
-                     the Python source                 
-                     code of data                      
-                     wrangling, data                   
-                     loading to tables                 
-                     and data rejection                
-                     processes                         
-
-    Database Table   This file contains       4       
-     records.xlsx    the records used                  
-                     for performing                    
-                     this analysis,                    
-                     corresponding to                  
-                     each table.                       
-
-    Stock Analysis   This file contains       5       
-       DAX.twbx      the Tableau                       
-                     visualization plot                
-                     details for all                   
-                     results.                          
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 <h3>Source Data</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" width="864" style="">
